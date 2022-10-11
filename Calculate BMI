@@ -1,0 +1,14 @@
+function bmi(weight, height) {
+    var totaly = weight / (height * height);
+    if (totaly <= 18.5){
+      return 'Underweight';
+    } else if (totaly <= 25.0){
+      return 'Normal';
+    } else if (totaly <= 30.0){
+      return 'Overweight';
+    } else if (totaly > 30){
+      return 'Obese';
+    } else {
+      return 'OMG';
+    }
+  }
