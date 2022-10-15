@@ -1,0 +1,7 @@
+function arrayPlusArray(arr1, arr2) {
+  var co = arr1.concat(arr2);
+  var summ = co.reduce(function (previousValue,number){
+    return previousValue + number;
+  },0)
+  return summ; 
+}
