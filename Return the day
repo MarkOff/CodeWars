@@ -11,6 +11,8 @@ function whatday(num) {
     return 'Thursday';
   } else if (num == 6){
     return 'Friday';
+  } else if (num == 7){
+    return 'Saturday';
   } else {
     return 'Wrong, please enter a number between 1 and 7'
   }
